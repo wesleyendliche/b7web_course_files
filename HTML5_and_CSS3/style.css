@@ -30,7 +30,7 @@ div {
 img{
     border: 5px double darkblue;
     border-radius: 30px;
-    overflow:hidden;
+    overflow: hidden;
     width:100px;
     height:50px;
 }
