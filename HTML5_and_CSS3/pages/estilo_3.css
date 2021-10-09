@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(37, 165, 112);
+}
+
+@media (min-width: 1000px) {
+    body{
+        background-color: brown;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1000px) {
+    body {
+        background-color: cornflowerblue;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        background-color: aqua;
+    }
+    h1 {
+        font-size: 50px;
+    }
+
+}
