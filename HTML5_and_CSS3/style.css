@@ -5,21 +5,24 @@
     color: rgb(5, 145, 133);
     font-size: 70px;
     font-family: 'Times New Roman', Times, serif;
-    margin: 50px;
-    padding: 50px;
-    }
+    margin: 10px;
+    padding: 30px;
+}
+
 .subtitle {
     background-color: burlywood;
     color:rgb(5, 145, 133);
     font-family: cursive;
     font-size: larger;
-    }
+}
+
 .main {
     border:10px solid cyan;
     border-radius: 10px;
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
 }
+
 div {
     background-color: lightslategrey;
     width:100px;
@@ -27,23 +30,28 @@ div {
     border-radius:50px;
     border:6px solid black;
 }
-img{
+
+img {
     border: 5px double darkblue;
     border-radius: 30px;
     overflow: hidden;
     width:100px;
     height:50px;
 }
-.link{
+
+.link {
     color:green;
     font-size:30px;
 }
-.link:hover{
+
+.link:hover {
     color:red;
 }
-.link:visited{
+
+.link:visited {
     color:cyan;
 }
+
 .other {
     color:#0000ff;
     font-size:25px;
@@ -56,34 +64,44 @@ img{
     line-height:20px;
     text-shadow:0px 2px 3px #000000;
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 #test {
     font-family:"Pacifico";
 }
+
 table {
     width:600px;
 }
+
 table thead {
     background-color:rgb(173, 173, 173);
 }
+
 th {
     font-weight:normal;
 }
+
 th, td {
     padding:10px;
     text-align:left;
 }
+
 tbody tr:hover {
     background-color:lightskyblue;
 }
+
 tbody td {
     border-bottom:1px solid black;
 }
+
 tbody tr:nth-child(even):hover {
     background-color:lightgray;
 }
@@ -92,6 +110,7 @@ label {
     display:block; /*one item below each other */
     margin-top:20px;
 }
+
 input[type=text], textarea, select {
     padding:10px;
     width:500px;
@@ -100,20 +119,36 @@ input[type=text], textarea, select {
     outline:0px;
     margin-top:5px;
 }
+
 textarea {
     height:200px;
     resize:none; /* the user can't pull the box area */
 }
+
 .termslink {
     color:black;
     text-decoration:none; /*hide the link*/
 }
+
 button {
     padding:10px;
     font-size:15px;
     border:1px solid #ccc;
     background-color:#eee;
 }
+
 button:hover {
     background-color:#ddd;
+}
+
+@media (orientation: landscape) {
+    body {
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        flex-direction: column;
+    }
 }
